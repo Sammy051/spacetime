@@ -91,7 +91,7 @@ public class SpacetimeApp extends JFrame implements ActionListener, KeyListener,
   Locale defaultLocale = Locale.getDefault();
   //Locale defaultLocale = new Locale("sk", "SK");
   Locale enLocale = new Locale("en", "US");
-  ResourceBundle bundle = ResourceBundle.getBundle("resources/i18n/SpacetimeBundle", defaultLocale);
+  ResourceBundle bundle = ResourceBundle.getBundle("resources/i18n/SpacetimeBundle_german", defaultLocale);
   
   //Create a file chooser
   JFileChooser fileChooser;
